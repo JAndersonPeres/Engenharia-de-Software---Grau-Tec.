@@ -129,3 +129,31 @@ footer {
 .btn-contato-insta:hover {
     background-color: #120061;
 }
+#chat-container {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+#chat-window {
+    height: 300px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#output p {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+input {
+    width: 98.5%;
+    padding: 5px;
+}
+.chat-button {
+    width: 100%;
+    padding: 5px;
+}
