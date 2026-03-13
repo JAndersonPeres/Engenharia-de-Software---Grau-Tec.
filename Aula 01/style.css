@@ -84,3 +84,48 @@ footer {
     font-size: 14px;
     color: #777;
 }
+.btn-contato-email {
+    background-color: #cc0000;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+.btn-contato-email:hover {
+    background-color: #8f0000;
+}
+.btn-contato-whats {
+    background-color: #00d412;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+.btn-contato-whats:hover {
+    background-color: #007e0a;
+}
+.btn-contato-insta {
+    background-color: #2900e2;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+.btn-contato-insta:hover {
+    background-color: #120061;
+}
