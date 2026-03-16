@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+}
+.container{
+    background: black;
+    padding: 30px;
+    margin: 30px auto;
+    width: 65%;
+    border-radius: 8px;
+    gap: 10px;
+    box-shadow: 0px 0px 10px
+    rgba(0, 0, 0, 0.76);
+    text-align: center;
+}
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    letter-spacing: 7px;
+}
+.h1-index {
+    font-family: Playfair Display, serif;
+    font-size: 4.25rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    line-height: 4.5rem;
+}
+.h1-glow-index {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(135deg, #ffffff, #2d5d45);
+    font-style: italic;
+}
+.p-index {
+    color: #709b85;
+    line-height: 1.2;
+    font-weight: 300;
+    font-size: 1.4rem;
+    max-width: 42rem;
+    margin-right: auto;
+    margin-left: auto;
+}
