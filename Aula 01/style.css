@@ -181,3 +181,10 @@ input {
     display: flex;
     gap: auto;
 }
+.text-gold-gradient{
+    background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
