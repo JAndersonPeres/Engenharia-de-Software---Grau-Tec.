@@ -29,23 +29,22 @@
         </div>
         <div class="normal-container">
             <h3 class="slim-text text-title uppercase">Indicadores do Sistema</h3>
-            <div class="normal-cards">
-                <div class="normal-card">
-                    <h4 class="slim-text text-title uppercase">Clientes</h4>
-                    <p>120</p>
-                </div>
-                <div class="normal-card">
-                    <h4 class="slim-text text-title uppercase">Projetos</h4>
-                    <p>8</p>
-                </div>
-                <div class="normal-card">
-                    <h4 class="slim-text text-title uppercase">Relatórios</h4>
-                    <p>5</p>
-                </div>
+            <div class="grafico-container">
+                <ul class="grafico-barras">
+                    <li style="--altura: 66.7%;" data-nome="Projetos"><span>80</span></li>
+                    <li style="--altura: 100%;" data-nome="Clientes"><span>120</span></li>
+                    <li style="--altura: 41.7%;" data-nome="Relatórios"><span>50</span></li>
+                </ul>
             </div>
         </div>
         <div class="normal-container">
-            <h3 class="slim-text text-title uppercase">Clientes Cadastrados</h3>
+            <div class="flex equal-space mg-bottom-small">
+                <h3 class="slim-text text-title uppercase">Clientes Cadastrados</h3>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Pesquisar...">
+                    <button class="search-button">🔍</button>
+                </div>
+            </div>
             <table class="minha-tabela">
                 <tr>
                     <th>ID</th>
