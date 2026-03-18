@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Agência Norta | Home</title>
+        <link rel="stylesheet" href="..\style.css">
+    </head>
+    <body class="page-style flex columns items-center">
+        <div>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <span class="menu-icon">☰</span>
+            </label>
+            <div class="sidebar">
+                <header>Menu</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="cadastro.html">Cadastrar Cliente</a></li>
+                </ul>
+            </div>
+        </div>
+        <h1 class="text-title slim-text bigger-text compress-line mg-bottom-small gradient italic">Cadastro de Cliente</h1>
+        <div class="normal-container">
+            <form class="flex columns">
+                <label class="mg-bottom-smaller uppercase small-text">Nome</label>
+                <input type="text" placeholder="Digite nome do cliente..." class="mg-bottom-small large-height gray-bg border-solid circle-border">
+                <label class="mg-bottom-smaller uppercase small-text">Email</label>
+                <input type="email" placeholder="Digite Email do cliente..." class="mg-bottom-small large-height gray-bg border-solid circle-border">
+                <label class="mg-bottom-smaller uppercase small-text">Telefone</label>
+                <input type="text" placeholder="Digite telefone do cliente..." class="mg-bottom-small large-height gray-bg border-solid circle-border">
+                <label class="mg-bottom-smaller uppercase small-text">Nome da Empresa</label>
+                <input type="text" placeholder="Digite nome da empresa do cliente..." class="mg-bottom-small large-height gray-bg border-solid circle-border">
+                <label class="mg-bottom-smaller uppercase small-text">Como conheceu a Norta?</label>
+                <select class="mg-bottom-big large-height gray-bg border-solid circle-border">
+                    <option value="op1">Por um amigo</option>
+                    <option value="op2">Pelas redes sociais</option>
+                    <option value="op3">Por anúncios</option>
+                    <option value="op4">Andando pela rua</option>
+                    <option value="op5">Outro...</option>
+                </select>
+                <button class="dark-green-bg remove-border large-height slim-text uppercase">Cadastrar</button>
+            </form>
+        </div>
+        <footer>
+            <p>Sistema desenvolvido para gestão da Agência Norta</p>
+        </footer>
+    </body>
+</html>
