@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Agência Norta | Contato</title>
+        <link rel="stylesheet" href="..\style.css">
+    </head>
+    <body class="page-style flex columns items-center">
+        <div>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <span class="menu-icon">☰</span>
+            </label>
+            <div class="sidebar">
+                <header>Menu</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="cadastro.html">Cadastrar Cliente</a></li>
+                    <li><a href="projeto.html">Projetos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+        <h1 class="text-title slim-text bigger-text compress-text mg-bottom-small gradient italic">Área para Contato</h1>
+        <div class="normal-container">
+            <h3 class="slim-text text-title mg-top-small uppercase">Contatos</h3>
+            <div class="normal-cards">
+                <div class="normal-card">
+                    <a href="mailto:andysonsperes@gmail.com" class="btn-contato-email">
+                        <img src="../images/email.png" alt="Email" width="50">
+                    </a>
+                    <a href="#" class="btn-contato-whats">
+                        <img src="../images/whats.png" alt="Whatsapp" width="50">
+                    </a>
+                    <a href="#" class="btn-contato-insta">
+                        <img src="../images/insta.png" alt="Instagram" width="50">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="normal-container">
+            <h3 class="slim-text text-title mg-top-small uppercase">Reclamações</h3>
+            <div id="chat-container">
+                <div id="chat-window">
+                    <div id="output"></div>
+                </div>
+                <input id="message" type="text" placeholder="Digite sua reclamação..." class="input-chat mg-bottom-small large-height gray-bg border-solid circle-border"/>
+                <button id="send" class="chat-button dark-green-bg remove-border large-height slim-text uppercase">Enviar</button>
+            </div>
+        </div>
+        <footer>
+            <p>Sistema desenvolvido para gestão da Agência Norta</p>
+        </footer>
+    </body>
+</html>
