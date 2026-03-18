@@ -1,43 +1,158 @@
-body {
-    background-color: black;
-    color: white;
+.page-style{
+    background-color: black; /* Cor do Fundo*/
+    color: white; /* Cor da Letra*/
+    min-height: 100vh; /* Mínimo tamanho de tela */
+    font-family: Inter, sans-serif;
 }
-.container{
-    background: black;
-    padding: 30px;
-    margin: 30px auto;
-    width: 65%;
-    border-radius: 8px;
-    gap: 10px;
-    box-shadow: 0px 0px 10px
-    rgba(0, 0, 0, 0.76);
+.logo{
+    width: 315px; /* Largura */
+    height: auto; /* Altura (para manter a proporção) */
+}
+.flex{
+    display: flex;
+}
+.columns{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.text-center {
     text-align: center;
 }
-h4 {
-    font-family: "Roboto", sans-serif;
+.text-title {
+    font-family: Playfair Diplay, serif;
+}
+.letter-space{
+    letter-spacing: 0.275rem;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.small-text {
+    font-size: 0.825rem;
+}
+.slim-text{
     font-weight: 100;
-    letter-spacing: 7px;
 }
-.h1-index {
-    font-family: Playfair Display, serif;
-    font-size: 4.25rem;
-    font-weight: 500;
-    margin-bottom: 1.5rem;
-    line-height: 4.5rem;
+.bigger-text{
+    font-size: 4rem;
 }
-.h1-glow-index {
+.compress-text {
+    max-width: 50rem;
+}
+.compress-line {
+    line-height: 4rem;
+}
+.italic {
+    font-style: italic;
+}
+.gradient {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    background-image: linear-gradient(135deg, #ffffff, #2d5d45);
-    font-style: italic;
+    background-image: linear-gradient(135deg, #ffffff, #b5cfc3, #2d5d45);
 }
-.p-index {
-    color: #709b85;
-    line-height: 1.2;
-    font-weight: 300;
-    font-size: 1.4rem;
+.normal-text {
+    font-size: 1.25rem
+}
+.compresser-text{
     max-width: 42rem;
-    margin-right: auto;
-    margin-left: auto;
+}
+.green-text {
+    color: #93c0ab;
+}
+.mg-bottom-small{
+    margin-bottom: 1rem;
+}
+.mg-bottom-big{
+    margin-bottom: 3.5rem;
+}
+.mg-top-small {
+    margin-top: 0.6rem;
+}
+.reduce-div {
+    width: 70%
+}
+.gap-20 {
+    gap: 20px;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.border-solid {
+    border-style: solid;
+}
+.side-border {
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+}
+.height-border {
+    padding-top: 0.025rem;
+    padding-bottom: 0.025rem;
+}
+.circle-border{
+    border-radius: 5px;
+}
+.slim-border {
+    border-width: 1px;
+}
+.gray-border {
+    border-color: gray;
+}
+.half-div {
+    width: 50%;
+}
+.bottom-border{
+    border-bottom: 1px solid gray;
+}
+.right-border{
+    border-right: 1px solid gray;
+}
+#check{
+    display: none
+}
+.menu-icon{
+    font-size: 25px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 13px;
+    display: block;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+}
+.sidebar{
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: auto;
+    background: #4d4d4d;
+    transition: all 0.3s ease;
+}
+.sidebar header {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 0;
+    background: #222;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li a {
+    display: block;
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+}
+.sidebar ul li a:hover{
+    background: #444;
+}
+#check:checked ~ .sidebar {
+    left:0;
 }
