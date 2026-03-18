@@ -65,6 +65,9 @@
 .green-text {
     color: #93c0ab;
 }
+.mg-bottom-smaller{
+    margin-bottom: 0.5rem;
+}
 .mg-bottom-small{
     margin-bottom: 1rem;
 }
@@ -155,4 +158,32 @@
 }
 #check:checked ~ .sidebar {
     left:0;
+}
+.normal-container{
+    background: rgb(17, 17, 17);
+    padding: 30px;
+    margin: 30px auto;
+    width: 90%;
+    border-radius: 8px;
+    gap: 10px;
+    box-shadow: 0px 0px 10px
+    rgba(0,0,0,0.1);
+}
+.large-height {
+    height: 2rem;
+}
+.gray-bg{
+    background: rgb(17, 17, 17);
+    color: white;
+}
+.dark-green-bg {
+    background-color: #0d2418;
+    color: white;
+    cursor: pointer;
+}
+.dark-green-bg:hover {
+    background-color: #2a5a41;
+}
+.remove-border {
+    border-style: none;
 }
